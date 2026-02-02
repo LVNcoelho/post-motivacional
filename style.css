@@ -22,19 +22,16 @@ body {
     width: 50%;
     /* Dica 5: Largura de 50% da largura da tela (ideal para conteúdo) */
     margin:0
-    /* Dica 5: Margem esquerda de 25% para centralizar horizontalmente */
-    /* (Se você usou "display: flex" no body como acima, o margin-left de 25% pode ser omitido
-       se você quiser uma centralização perfeita baseada no flexbox.
-       Porém, a dica original pediu o margin-left, então mantive aqui.) */
+   
     text-align: center;
     /* Requisito: Centraliza o texto (h1 e p) dentro deste container */
     padding: 20px;
     /* Adiciona um espaço interno para o conteúdo não ficar colado nas bordas do container */
     box-sizing: border-box;
-    /* Garante que o padding seja incluído na largura total de 50% */
+    
 }
 
-/* Estilos para o título principal (h1) */
+
 h1 {
     font-family: 'Libre Baskerville', serif;
     /* Requisito 1: Usa a fonte Libre Baskerville do Google Fonts */
@@ -51,8 +48,7 @@ h1 {
 /* Estilos para a imagem */
 img {
     width: 100%;
-    /* Dica 5: A imagem ocupa 100% da largura do seu container (.motivacional-container),
-                       garantindo que ela se ajuste à largura de 50% da tela. */
+   
     max-width: 600px;
     /* Opcional: Limita a largura máxima da imagem para não ficar gigante em telas muito grandes. Ajuste se necessário. */
     height: auto;
